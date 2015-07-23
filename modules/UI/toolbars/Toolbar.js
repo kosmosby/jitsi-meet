@@ -218,7 +218,7 @@ function inviteParticipants() {
     }
 
     if (interfaceConfig.INVITATION_POWERED_BY) {
-        body += "%0D%0A%0D%0A--%0D%0Apowered by jitsi.org";
+        body += "%0D%0A%0D%0A--%0D%0Apowered by vri-edimart.com";
     }
 
     window.open("mailto:?subject=" + subject + "&body=" + body, '_blank');
