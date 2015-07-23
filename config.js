@@ -29,7 +29,7 @@ var config = {
     useRtcpMux: true, // required for FF support
     useBundle: true, // required for FF support
     enableRecording: false,
-    enableWelcomePage: true,
+    enableWelcomePage: false,
     enableSimulcast: false, // blocks FF support
     logStats: false, // Enable logging of PeerConnection stats via the focus
 //    requireDisplayName: true,//Forces the participants that doesn't have display name to enter it when they enter the room.
